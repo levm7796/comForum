@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Главная</title>
+		<meta name="description" content="">
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no">
+<link rel="stylesheet" href="css/style.css?71">
+<link rel="shortcut icon" href="favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">	</head>
+	<body>
+		<div class="wrapper" style="background: #E3E3E3">
+			<main class="page">
+				<div class="popups">
+					<h1 class="title">Модальные окна</h1>
+					<p>Модальное окно открывается путем добавления к элементу data-атрибута data-popup c айдишником попапа <br>Или вызывается из JS: .popup.open('#callback')</p>
+					<div class="popups__block">
+						<a href="#" class="btn btn_r" data-popup="#callback">обр. звонок</a>
+						<a href="#" class="btn btn_r" data-popup="#cad">cad</a>
+						<a href="#" class="btn btn_r" data-popup="#price">каталог продукции</a>
+						<a href="#" class="btn btn_r" data-popup="#comm">прайс</a>
+					</div>
+				</div>
+				<div class="popups">
+					<h1 class="title">Спасибо за обращение</h1>
+					<div class="popups__block">
+						<a href="#" class="btn btn_r" data-popup="#thanks">Заявка принята!</a>
+						<a href="#" class="btn btn_r" data-popup="#thanks2">Заявка оформлена</a>
+						<a href="#" class="btn btn_r" data-popup="#thanks3">Заявка принята! 2</a>
+						<a href="#" class="btn btn_r" data-popup="#thanks4">bim/cad</a>
+					</div>
+				</div>
+			</main>
+		</div>
+<div id="callback" aria-hidden="true" class="popup callback-popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close"></button>
+			<div class="title popup__title">ЗАКАЗАТЬ <span>ОБРАТНЫЙ ЗВОНОК</span></div>
+			<form action="" id="form-callback" method="post" class="form-popup">
+				<div class="form__item">
+					<input id="name" autocomplete="off" type="text" name="name" data-error="Введите имя" placeholder="Имя*" data-placeholder data-validate class="input">
+				</div>
+				<div class="form__item">
+					<input id="tel" autocomplete="off" type="text" name="tel" data-error="Введите правильно телефон" placeholder="Телефон*" data-placeholder data-validate class="input">
+				</div>
+				<div class="form__item">
+					<textarea id="text" name="text" placeholder="Комментарий"></textarea>
+				</div>
+				<div class="popup__agree">Нажимая кнопку «Заказать», вы даете свое согласие на обработку персональных данных и соглашаетесь с условиями публичной оферты.</div>
+				<div class="btn2 infoblock__btn2">
+					<button type="submit" name=submit class="btn">ЗАКАЗАТЬ</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<div id="cad" aria-hidden="true" class="popup callback-popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close"></button>
+			<div class="title popup__title">ЗАКАЗАТЬ <span>BIM/CAD МОДЕЛЬ</span></div>
+			<div class="callback-popup__sub">Заполните форму, и мы вышлем вам на почту данную модель мебели</div>
+			<form action="" id="form-price" method="post" class="form-popup">
+				<div class="form__item">
+					<input id="name" autocomplete="off" type="text" name="name" data-error="Введите имя" placeholder="Имя*" data-placeholder data-validate class="input">
+				</div>
+				<div class="form__item">
+					<input id="tel" autocomplete="off" type="text" name="tel" data-error="Введите правильно телефон" placeholder="Телефон*" data-placeholder data-validate class="input">
+				</div>
+				<div class="form__item">
+					<input id="email" autocomplete="off" type="text" name="email" data-error="Введите E-mail" placeholder="E-mail*" data-placeholder data-validate class="input">
+				</div>
+				<div class="form__item">
+					<input id="org" autocomplete="off" type="text" name="org" placeholder="Компания" data-placeholder class="input">
+				</div>
+				<div class="form__item">
+					<textarea id="text" name="text" placeholder="Комментарий"></textarea>
+				</div>
+				<div class="form__item">
+					<div class="popup__agree">Нажимая кнопку «Заказать», вы даете свое согласие на обработку персональных данных и соглашаетесь с условиями публичной оферты.</div>
+				</div>
+				<div class="btn2 infoblock__btn2">
+					<button type="submit" name=submit class="btn">ПОЛУЧИТЬ BIM/CAD</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<div id="price" aria-hidden="true" class="popup callback-popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close"></button>
+			<div class="title popup__title popup__title_pr">ЗАПРОС <span>КАТАЛОГА ПРОДУКЦИИ</span></div>
+			<div class="callback-popup__sub">Заполните форму, и мы вышлем вам на почту каталог продукции COMFORUM</div>
+			<form action="" id="form-price" method="post" class="form-popup">
+				<div class="form__item">
+					<input id="name" autocomplete="off" type="text" name="name" data-error="Введите имя" placeholder="Имя*" data-placeholder data-validate class="input">
+				</div>
+				<div class="form__item">
+					<input id="tel" autocomplete="off" type="text" name="tel" data-error="Введите правильно телефон" placeholder="Телефон*" data-placeholder data-validate class="input">
+				</div>
+				<div class="form__item">
+					<input id="email" autocomplete="off" type="text" name="email" data-error="Введите E-mail" placeholder="E-mail*" data-placeholder data-validate class="input">
+				</div>
+				<div class="form__item">
+					<input id="org" autocomplete="off" type="text" name="org" placeholder="Компания" data-placeholder class="input">
+				</div>
+				<div class="form__item">
+					<textarea id="text" name="text" placeholder="Комментарий"></textarea>
+				</div>
+				<div class="form__item">
+					<div class="checkbox">
+						<input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input">
+						<label for="formAgreement" class="checkbox__label"><span>Я даю согласие на обработку персональных данных</span></label>
+					</div>
+				</div>
+				<div class="btn2 infoblock__btn2">
+					<button type="submit" name=submit class="btn">ПОЛУЧИТЬ КАТАЛОГ</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<div id="price2" aria-hidden="true" class="popup callback-popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close"></button>
+			<div class="title popup__title popup__title_pr">запрос <span>прайса продукции comforum</span></div>
+			<div class="callback-popup__sub">Заполните форму, и мы вышлем вам на почту прайс <br>с нашей продукцией</div>
+			<form action="" id="form-price" method="post" class="form-popup">
+				<div class="form__item">
+					<input id="name" autocomplete="off" type="text" name="name" data-error="Введите имя" placeholder="Имя*" data-placeholder data-validate class="input">
+				</div>
+				<div class="form__item">
+					<input id="tel" autocomplete="off" type="text" name="tel" data-error="Введите правильно телефон" placeholder="Телефон*" data-placeholder data-validate class="input">
+				</div>
+				<div class="form__item">
+					<input id="email" autocomplete="off" type="text" name="email" data-error="Введите E-mail" placeholder="E-mail*" data-placeholder data-validate class="input">
+				</div>
+				<div class="form__item">
+					<input id="org" autocomplete="off" type="text" name="org" placeholder="Компания" data-placeholder class="input">
+				</div>
+				<div class="form__item">
+					<textarea id="text" name="text" placeholder="Комментарий"></textarea>
+				</div>
+				<div class="form__item">
+					<div class="checkbox">
+						<input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input">
+						<label for="formAgreement" class="checkbox__label"><span>Я даю согласие на обработку персональных данных</span></label>
+					</div>
+				</div>
+				<div class="btn2 infoblock__btn2">
+					<button type="submit" name=submit class="btn">ПОЛУЧИТЬ КАТАЛОГ</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<div id="comm" aria-hidden="true" class="popup callback-popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close"></button>
+			<div class="title popup__title popup__title_pr">ЗАПРОС <span>прайса продукции COMFORUM</span></div>
+			<div class="callback-popup__sub">Заполните форму, и мы вышлем вам на почту прайс с нашей продукцией</div>
+			<form action="" id="form-price" method="post" class="form-popup">
+				<div class="form__item">
+					<input id="name" autocomplete="off" type="text" name="name" data-error="Введите имя" placeholder="Имя*" data-placeholder data-validate class="input">
+				</div>
+				<div class="form__item">
+					<input id="tel" autocomplete="off" type="text" name="tel" data-error="Введите правильно телефон" placeholder="Телефон*" data-placeholder data-validate class="input">
+				</div>
+				<div class="form__item">
+					<input id="email" autocomplete="off" type="text" name="email" data-error="Введите E-mail" placeholder="E-mail*" data-placeholder data-validate class="input">
+				</div>
+				<div class="form__item">
+					<input id="org" autocomplete="off" type="text" name="org" placeholder="Компания" data-placeholder class="input">
+				</div>
+				<div class="form__item">
+					<textarea id="text" name="text" placeholder="Комментарий"></textarea>
+				</div>
+				<div class="form__item">
+					<div class="checkbox">
+						<input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input">
+						<label for="formAgreement" class="checkbox__label"><span>Я даю согласие на обработку персональных данных</span></label>
+					</div>
+				</div>
+				<div class="btn2 infoblock__btn2">
+					<button type="submit" name=submit class="btn">ПОЛУЧИТЬ ПРАЙС</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<div id="portfol" aria-hidden="true" class="popup portfol-popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close"></button>
+			<div class="portfol-slider">
+				<div class="swiper portfol-slider__container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="portfol-slider__img">
+								<img src="img/portfol/big.webp" alt="" title="">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="portfol-slider__img">
+								<img src="img/portfol/big.webp" alt="" title="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="button-prev swiper-button-prev8"></div>
+				<div class="button-next swiper-button-next8"></div>
+			</div>
+			<p>Вокзал, зал ожидания многоместные секции Стилл+</p>
+		</div>
+	</div>
+</div>
+<div id="thanks" aria-hidden="true" class="popup thanks-popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close"></button>
+			<div class="thanks-popup__bg">
+				<img src="img/popbg.webp" alt="" title="">
+			</div>
+			<div class="thanks-popup__main">
+				<div class="thanks-popup__logo">
+					<img src="img/logo3.png" alt="" title="">
+				</div>
+				<div class="thanks-popup__title">Спасибо <br>за обращение!</div>
+				<div class="thanks-popup__text">Заявка принята! Менеджер <br>свяжется с вами в рабочие дни <br>с 8.00 - 17.00</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="thanks2" aria-hidden="true" class="popup thanks-popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close"></button>
+			<div class="thanks-popup__bg">
+				<img src="img/popbg.webp" alt="" title="">
+			</div>
+			<div class="thanks-popup__main">
+				<div class="thanks-popup__logo">
+					<img src="img/logo3.png" alt="" title="">
+				</div>
+				<div class="thanks-popup__title">Спасибо <br>за обращение!</div>
+				<div class="thanks-popup__text">Заявка оформлена! Менеджер <br>свяжется с вами в рабочие дни <br>с 8.00 - 17.00</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="thanks3" aria-hidden="true" class="popup thanks-popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close"></button>
+			<div class="thanks-popup__bg">
+				<img src="img/popbg.webp" alt="" title="">
+			</div>
+			<div class="thanks-popup__main">
+				<div class="thanks-popup__logo">
+					<img src="img/logo3.png" alt="" title="">
+				</div>
+				<div class="thanks-popup__title">Заявка принята!</div>
+				<div class="thanks-popup__text">Менеджер свяжется с вами в рабочие дни с 8.00 - 17.00</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="thanks4" aria-hidden="true" class="popup thanks-popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close"></button>
+			<div class="thanks-popup__bg">
+				<img src="img/popbg.webp" alt="" title="">
+			</div>
+			<div class="thanks-popup__main">
+				<div class="thanks-popup__logo">
+					<img src="img/logo3.png" alt="" title="">
+				</div>
+				<div class="thanks-popup__title">Спасибо <br>за обращение!</div>
+				<div class="thanks-popup__text">Запрос на отправку BIM/CAD принят! Менеджер свяжется с вами в рабочие дни с 8.00 - 17.00</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="popcart" aria-hidden="true" class="popup callback-popup popcart-popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close"></button>
+			<div class="title popup__title">ТОВАР ДОБАВЛЕН <br><span>В ВАШУ КОРЗИНУ</span></div>
+			<div class="cart-main">
+				<div class="cart-main__line cart-main__line_head">
+					<div class="cart-main__img">Товар</div>
+				</div>
+				<div class="cart-main__line cart-main__line_prod">
+					<div class="cart-main__img">
+						<img src="img/hero/1.webp" alt="" title="">
+					</div>
+					<div class="cart-main__name">Многоместная секция AERO 2П <span>Арт. МС8/1</span></div>
+				</div>
+				<div class="cart-main__line">
+					<div class="cart-main__sum">В заказе один товар на сумму: <span>по запросу</span></div>
+				</div>
+			</div>
+			<div class="popcart-popup__buttons">
+				<a href="cart.html" class="btn btn_b order__btn">ПЕРЕЙТИ В ЗАКАЗ</a>
+				<div class="btn2 product__btn2">
+					<a href="products.html" class="btn btn2_r" target="_blank">ПРОДОЛЖИТЬ ПОКУПКИ</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><script src="js/jquery.js"></script>
+<script src="js/TweenMax.min.js"></script>
+<script src="js/vendors.js?13"></script>
+<script src="js/app.js?13"></script>
+<script src="js/custom.js?13"></script>	</body>
+</html

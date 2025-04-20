@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Eurostile';
+    src: url('Eurostile-BolObl.woff2') format('woff2'),
+        url('Eurostile-BolObl.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'EurostileConHea';
+    src: url('EurostileCon-Hea.woff2') format('woff2'),
+        url('EurostileCon-Hea.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurostile';
+    src: url('Eurostile-Bol.woff2') format('woff2'),
+        url('Eurostile-Bol.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EurostileConReg';
+    src: url('EurostileCon-RegIta.woff2') format('woff2'),
+        url('EurostileCon-RegIta.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EurostileConReg';
+    src: url('EurostileCon-Reg.woff2') format('woff2'),
+        url('EurostileCon-Reg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EurostileConHea';
+    src: url('EurostileCon-HeaIta.woff2') format('woff2'),
+        url('EurostileCon-HeaIta.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EurostileHea';
+    src: url('Eurostile-Hea.woff2') format('woff2'),
+        url('Eurostile-Hea.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EurostileHea';
+    src: url('Eurostile-HeaIta.woff2') format('woff2'),
+        url('Eurostile-HeaIta.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EurostileExtReg';
+    src: url('EurostileExt-Reg.woff2') format('woff2'),
+        url('EurostileExt-Reg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EurostileExtBla';
+    src: url('EurostileExt-Bla.woff2') format('woff2'),
+        url('EurostileExt-Bla.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurostile-Bla';
+    src: url('Eurostile-BlaIta.woff2') format('woff2'),
+        url('Eurostile-BlaIta.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurostile-Med';
+    src: url('Eurostile-MedIta.woff2') format('woff2'),
+        url('Eurostile-MedIta.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurostile';
+    src: url('Eurostile-RegObl.woff2') format('woff2'),
+        url('Eurostile-RegObl.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurostile-Reg';
+    src: url('Eurostile-Reg.woff2') format('woff2'),
+        url('Eurostile-Reg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurostile-Bla';
+    src: url('Eurostile-Bla.woff2') format('woff2'),
+        url('Eurostile-Bla.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurostile-Med';
+    src: url('Eurostile-Med.woff2') format('woff2'),
+        url('Eurostile-Med.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EurostileExtMed';
+    src: url('EurostileExt-Med.woff2') format('woff2'),
+        url('EurostileExt-Med.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
